@@ -1,19 +1,19 @@
 {
-  "name": "Water Calculator",
-  "short_name": "WaterCal",
-  "start_url": "https://aura-b9.github.io/Water-Tracker/",
+  "name": "Water Tracker",
+  "short_name": "WaterTrack",
+  "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#1976d2",
   "description": "A cool PWA version of my website!",
   "icons": [
     {
-      "src": "/icons/icon-512x512.png",
+      "src": "./icons/icon1.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/icons/icon-512x512.png",
+      "src": "./icons/icon2.png",
       "sizes": "512x512",
       "type": "image/png"
     }
