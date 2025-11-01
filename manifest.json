@@ -1,7 +1,7 @@
 {
   "name": "Water Calculator",
   "short_name": "WaterCal",
-  "start_url": "/",
+  "start_url": "https://aura-b9.github.io/Water-Tracker/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#1976d2",

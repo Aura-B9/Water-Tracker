@@ -6,6 +6,8 @@
   <title>Water Tracker</title>
   <link rel="stylesheet" href="style.css">
   <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#1976d2">
 </head>
 <body>
 
@@ -26,5 +28,13 @@
   </main>
 
 <script src="script.js"></script>
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/service-worker.js')
+      .then(() => console.log('Service Worker registered'))
+      .catch((error) => console.log('Service Worker registration failed:', error));
+  }
+</script>
+
 </body>
 </html>
